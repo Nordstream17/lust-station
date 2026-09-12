@@ -1,0 +1,9 @@
+- type: microwaveMealRecipe
+  id: RecipeBurgerKiller
+  name: burger-killer recipe
+  result: FoodBurgerKiller
+  time: 10
+  group: Savory
+  solids:
+    FoodBreadBun: 1
+    FoodMeatTomato: 1
