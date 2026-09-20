@@ -1,6 +1,6 @@
 - type: entity
   parent: FoodBurgerBase
-  id: FoodBurgerKiller
+  id: LustFoodBurgerKiller
   name: burger-killer
   description: It told you ALL.
   components:
@@ -21,7 +21,7 @@
   - type: FlavorProfile
     flavors:
       - bun
-      - aggressive
+      - lustaggressive
   - type: SolutionContainerManager
     solutions:
       food:
