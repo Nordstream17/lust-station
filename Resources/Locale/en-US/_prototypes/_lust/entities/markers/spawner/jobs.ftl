@@ -1,10 +1,10 @@
-ent-SpawnPointCentCommInspector = Инспектор Центком
+ent-SpawnPointCentCommInspector = Central Command Inspector
     .desc = { ent-SpawnPointJobBase.desc }
-ent-SpawnPointCentCommChiefOfStaff = Начальник Штаба Центком
+ent-SpawnPointCentCommChiefOfStaff = Central Command Chief Of Staff
     .desc = { ent-SpawnPointJobBase.desc }
-ent-SpawnPointCentCommIntern = Стажёр Центком
+ent-SpawnPointCentCommIntern = Central Command Intern
     .desc = { ent-SpawnPointJobBase.desc }
-ent-SpawnPointCentCommIDOperator = Оператор СУ Центком
+ent-SpawnPointCentCommIDOperator = Central Command ID Operator
     .desc = { ent-SpawnPointJobBase.desc }
-ent-SpawnPointCentCommSpecOpsOperator = Офицер Специальных Операций Центком
+ent-SpawnPointCentCommSpecOpsOperator = Central Command Special Operations Operator
     .desc = { ent-SpawnPointJobBase.desc }
