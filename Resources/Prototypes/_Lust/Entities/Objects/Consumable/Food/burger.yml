@@ -22,12 +22,10 @@
     flavors:
       - bun
       - lustaggressive
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        maxVol: 25
-        reagents:
-        - ReagentId: Nutriment
-          Quantity: 18
-        - ReagentId: Vitamin
-          Quantity: 7
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Nutriment
+        Quantity: 18
+      - ReagentId: Vitamin
+        Quantity: 7
