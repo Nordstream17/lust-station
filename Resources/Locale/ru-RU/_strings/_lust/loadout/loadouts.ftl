@@ -3,3 +3,4 @@ CentCommChiefOfStaff-loadout = Снаряжение начальника шта�
 CentCommIntern-loadout = Снаряжение стажёра Центком
 CentCommIDOperator-loadout = Снаряжение оператора СУ Центком
 CentCommSpecOpsOperator-loadout = Снаряжение офицера специальных операций Центком
+﻿loadout-group-hardsuit = Скафандр
