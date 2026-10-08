@@ -19,6 +19,6 @@ ent-LustCentcomInternIDCardQillu = карта стажёра ЦК
 ent-LustCentcomIDOperatorIDCardQillu = карта оператора СУ
     .suffix = Qillu
     .desc = Фиолетово-золотая ID карта Оператора СУ ЦК. Изготовлена по контракту Qillu.
-ent-LustCentcomSpecOpsOperatorIDCardQillu = карта спецопераций ЦК
+ent-LustCentcomSpecOpsOperatorIDCardQillu = карта лейтенант-коммандера сектора
     .suffix = Qillu
     .desc = Фиолетово-золотая ID карта Офицера Специальных Операций ЦК. Изготовлена по контракту Qillu.
