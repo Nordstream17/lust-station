@@ -29,8 +29,6 @@
         paper: ""
         paper1: ""
         paper5: ""
-  - type: Item
-    size: Large
   - type: PhysicalComposition
     materialComposition:
       Plastic: 500 # 5 sheets
@@ -53,8 +51,6 @@
         paper3: ""
         paper4: ""
         paper6: ""
-  - type: Item
-    size: Large
   - type: PhysicalComposition
     materialComposition:
       Plastic: 300 # 3 sheets
@@ -98,8 +94,6 @@
     layers:
       - state: pot1
         map: [ "base" ]
-  - type: Item
-    size: Large
   - type: MultiHandedItem
   - type: RandomSprite
     available:
@@ -113,16 +107,35 @@
 
 - type: entity
   parent: LustBaseScrap
+  id: ScrapTire
+  name: tire
+  description: Torn tire.
+  components:
+  - type: Sprite
+    layers:
+      - state: tire1
+        map: [ "base" ]
+  - type: MultiHandedItem
+  - type: RandomSprite
+    available:
+    - base:
+        tire: ""
+        tire1: ""
+  - type: PhysicalComposition
+    materialComposition:
+      Plastic: 800 # 8 sheets
+      SalvageTicket: 8 # 8 tickets
+
+- type: entity
+  parent: LustBaseScrap
   id: ScrapPotBig
   name: old ceramic pot
-  description: Big ceramic pot with barely alive plant.
+  description: Ceramic pot with barely alive plant.
   components:
   - type: Sprite
     layers:
       - state: big_pot1
         map: [ "base" ]
-  - type: Item
-    size: Large
   - type: MultiHandedItem
   - type: RandomSprite
     available:
@@ -138,7 +151,7 @@
   parent: LustBaseScrap
   id: ScrapPile
   name: pile of trash
-  description: disqusting pile of trash
+  description: Disqusting pile of trash.
   components:
   - type: Sprite
     layers:
@@ -162,7 +175,7 @@
   parent: LustBaseScrap
   id: ScrapTrashBag
   name: trash bag
-  description: dirty waste bag
+  description: Dirty waste bag.
   components:
   - type: Sprite
     layers:
@@ -183,7 +196,7 @@
   components:
   - type: Sprite
     layers:
-      - state: trash_bag
+      - state: trash_bags
   - type: Item
     size: Large
   - type: MultiHandedItem
@@ -231,7 +244,8 @@
   components:
   - type: Sprite
     sprite: _Lust/Objects/Materials/garbage.rsi
-    state: rack1
+    layers:
+      - state: rack1
 
 - type: entity
   parent: ScrapRack
@@ -239,7 +253,8 @@
   components:
   - type: Sprite
     sprite: _Lust/Objects/Materials/garbage.rsi
-    state: rack2
+    layers:
+      - state: rack2
 
 - type: entity
   parent: PosterBase
