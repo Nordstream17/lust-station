@@ -109,7 +109,7 @@
   parent: LustBaseScrap
   id: ScrapTire
   name: tire
-  description: Torn tire.
+  description: A torn tire.
   components:
   - type: Sprite
     layers:
