@@ -180,9 +180,6 @@
   - type: Sprite
     layers:
       - state: trash_bag
-  - type: Item
-    size: Large
-  - type: MultiHandedItem
   - type: PhysicalComposition
     materialComposition:
       Plastic: 500 # 5 sheets
