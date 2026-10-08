@@ -88,8 +88,8 @@
 
 - type: entity
   parent: CentcomInspectorIDCardQillu
-  id: CentcomChiefOfStaffIDCardQillu
-  name: centcom chief of staff ID card
+  id: LustCentcomChiefOfStaffIDCardQillu
+  name: centcom chief card
   components:
   - type: IdCard
     jobTitle: job-title-centcom-chief-of-staff
@@ -97,8 +97,8 @@
 
 - type: entity
   parent: CentcomInspectorIDCardQillu
-  id: CentcomInternIDCardQillu
-  name: centcom intern ID card
+  id: LustCentcomInternIDCardQillu
+  name: centcom intern card
   components:
   - type: IdCard
     jobTitle: job-title-centcom-intern
@@ -106,8 +106,8 @@
 
 - type: entity
   parent: CentcomInspectorIDCardQillu
-  id: CentcomIDOperatorIDCardQillu
-  name: centcom id operator ID card
+  id: LustCentcomIDOperatorIDCardQillu
+  name: centcom ID card
   components:
   - type: IdCard
     jobTitle: job-title-centcom-id-operator
@@ -115,8 +115,8 @@
 
 - type: entity
   parent: CentcomInspectorIDCardQillu
-  id: CentcomSpecOpsOperatorIDCardQillu
-  name: centcom special operations operator ID card
+  id: LustCentcomSpecOpsOperatorIDCardQillu
+  name: centcom specops card
   components:
   - type: IdCard
     jobTitle: job-title-centcom-specops-operator

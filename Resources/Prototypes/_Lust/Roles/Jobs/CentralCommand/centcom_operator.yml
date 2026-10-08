@@ -15,10 +15,10 @@
 
 # Inspector
 - type: job
-  id: CentCommInspector
+  id: LustCentCommInspector
   name: job-name-centcomins
   description: job-description-centcomins
-  playTimeTracker: JobCentCommInspector
+  playTimeTracker: JobLustCentCommInspector
   requirements:
   - !type:DiscordRoleRequirement
   weight: 30
@@ -28,7 +28,6 @@
   overrideConsoleVisibility: false
   supervisors: job-supervisors-centcom
   radioBold: true
-  canBeAntag: false
   alwaysUseSpawner: true
   accessGroups:
   - AllAccess
@@ -37,23 +36,25 @@
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant, DeathRattleImplantCentcomm ]
+  - !type:AddComponentSpecial
+    components:
+    - type: ParadoxCloneImmune
 
 # Chief of staff
 - type: job
-  id: CentCommChiefOfStaff
+  id: LustCentCommChiefOfStaff
   name: job-name-centcomchief
   description: job-description-centcomchief
-  playTimeTracker: JobCentCommChiefOfStaff
+  playTimeTracker: JobLustCentCommChiefOfStaff
   requirements:
   - !type:DiscordRoleRequirement
-  weight: 30
+  weight: 60
   setPreference: true
   startingGear: CentCommOperatorGearQillu
   icon: "JobIconNanotrasen"
   overrideConsoleVisibility: false
   supervisors: job-supervisors-centcom
   radioBold: true
-  canBeAntag: false
   alwaysUseSpawner: true
   accessGroups:
   - AllAccess
@@ -62,23 +63,25 @@
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant, DeathRattleImplantCentcomm ]
+  - !type:AddComponentSpecial
+    components:
+    - type: ParadoxCloneImmune
 
 # Intern
 - type: job
-  id: CentCommIntern
+  id: LustCentCommIntern
   name: job-name-centcomint
   description: job-description-centcomint
-  playTimeTracker: JobCentCommIntern
+  playTimeTracker: JobLustCentCommIntern
   requirements:
   - !type:DiscordRoleRequirement
-  weight: 30
+  weight: 10
   setPreference: true
   startingGear: CentCommOperatorGearQillu
   icon: "JobIconNanotrasen"
   overrideConsoleVisibility: false
   supervisors: job-supervisors-centcom
   radioBold: true
-  canBeAntag: false
   alwaysUseSpawner: true
   accessGroups:
   - AllAccess
@@ -87,24 +90,26 @@
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant, DeathRattleImplantCentcomm ]
+  - !type:AddComponentSpecial
+    components:
+    - type: ParadoxCloneImmune
 
 
 # ID Operator
 - type: job
-  id: CentCommIDOperator
+  id: LustCentCommIDOperator
   name: job-name-centcomid
   description: job-description-centcomid
-  playTimeTracker: JobCentCommIDOperator
+  playTimeTracker: JobLustCentCommIDOperator
   requirements:
   - !type:DiscordRoleRequirement
-  weight: 30
+  weight: 70
   setPreference: true
   startingGear: CentCommOperatorGearQillu
   icon: "JobIconNanotrasen"
   overrideConsoleVisibility: false
   supervisors: job-supervisors-centcom
   radioBold: true
-  canBeAntag: false
   alwaysUseSpawner: true
   accessGroups:
   - AllAccess
@@ -113,24 +118,26 @@
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant, DeathRattleImplantCentcomm ]
+  - !type:AddComponentSpecial
+    components:
+    - type: ParadoxCloneImmune
 
 
 # SpecOps Operator
 - type: job
-  id: CentCommSpecOpsOperator
+  id: LustCentCommSpecOpsOperator
   name: job-name-centcomso
   description: job-description-centcomso
-  playTimeTracker: JobCentCommSpecOpsOperator
+  playTimeTracker: JobLustCentCommSpecOpsOperator
   requirements:
   - !type:DiscordRoleRequirement
-  weight: 30
+  weight: 40
   setPreference: true
-  startingGear: CentCommSpecOpsOperatorGearQillu
+  startingGear: LustCentCommSpecOpsOperatorGearQillu
   icon: "JobIconNanotrasen"
   overrideConsoleVisibility: false
   supervisors: job-supervisors-centcom
   radioBold: true
-  canBeAntag: false
   alwaysUseSpawner: true
   accessGroups:
   - AllAccess
@@ -139,9 +146,12 @@
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant, DeathRattleImplantCentcomm ]
+  - !type:AddComponentSpecial
+    components:
+    - type: ParadoxCloneImmune
 
 - type: startingGear
-  id: CentCommSpecOpsOperatorGearQillu
+  id: LustCentCommSpecOpsOperatorGearQillu
   equipment:
     jumpsuit: ClothingUniformJumpsuitCentcomOfficerBlack
     head: ClothingHeadCapCentcomBlack

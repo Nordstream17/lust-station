@@ -1,39 +1,39 @@
 - type: entity
-  id: SpawnPointCentCommInspector
+  id: SpawnPointLustCentCommInspector
   parent: SpawnPointCentCommOperator
-  name: Central Command Inspector
+  name: central command inspector
   components:
   - type: SpawnPoint
-    job_id: CentCommInspector
+    job_id: LustCentCommInspector
 
 - type: entity
-  id: SpawnPointCentCommChiefOfStaff
+  id: SpawnPointLustCentCommChiefOfStaff
   parent: SpawnPointCentCommOperator
-  name: Central Command Chief of Staff
+  name: central command chief
   components:
   - type: SpawnPoint
-    job_id: CentCommChiefOfStaff
+    job_id: LustCentCommChiefOfStaff
 
 - type: entity
-  id: SpawnPointCentCommIntern
+  id: SpawnPointLustCentCommIntern
   parent: SpawnPointCentCommOperator
-  name: Central Command Intern
+  name: central command intern
   components:
   - type: SpawnPoint
-    job_id: CentCommIntern
+    job_id: LustCentCommIntern
 
 - type: entity
-  id: SpawnPointCentCommIDOperator
+  id: SpawnPointLustCentCommIDOperator
   parent: SpawnPointCentCommOperator
-  name: Central Command ID Operator
+  name: central command ID
   components:
   - type: SpawnPoint
-    job_id: CentCommIDOperator
+    job_id: LustCentCommIDOperator
 
 - type: entity
-  id: SpawnPointCentCommSpecOpsOperator
+  id: SpawnPointLustCentCommSpecOpsOperator
   parent: SpawnPointCentCommOperator
-  name: Central Command Special Operations Operator
+  name: central command specops
   components:
   - type: SpawnPoint
-    job_id: CentCommSpecOpsOperator
+    job_id: LustCentCommSpecOpsOperator

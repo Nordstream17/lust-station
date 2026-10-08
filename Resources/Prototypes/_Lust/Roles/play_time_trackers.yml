@@ -14,16 +14,16 @@
   id: JobSoldierCCAC
 
 - type: playTimeTracker
-  id: JobCentCommInspector
+  id: JobLustCentCommInspector
 
 - type: playTimeTracker
-  id: JobCentCommChiefOfStaff
+  id: JobLustCentCommChiefOfStaff
 
 - type: playTimeTracker
-  id: JobCentCommIntern
+  id: JobLustCentCommIntern
 
 - type: playTimeTracker
-  id: JobCentCommIDOperator
+  id: JobLustCentCommIDOperator
 
 - type: playTimeTracker
-  id: JobCentCommSpecOpsOperator
+  id: JobLustCentCommSpecOpsOperator

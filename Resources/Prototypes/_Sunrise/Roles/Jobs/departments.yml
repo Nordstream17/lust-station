@@ -70,11 +70,11 @@
   - CentCommOperator
   - CentCommOfficial
   # Lust-Start
-  - CentCommInspector
-  - CentCommChiefOfStaff
-  - CentCommIntern
-  - CentCommIDOperator
-  - CentCommSpecOpsOperator
+  - LustCentCommInspector
+  - LustCentCommChiefOfStaff
+  - LustCentCommIntern
+  - LustCentCommIDOperator
+  - LustCentCommSpecOpsOperator
   # Lust-End
   weight: 120
 

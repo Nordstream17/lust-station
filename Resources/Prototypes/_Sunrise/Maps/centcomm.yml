@@ -20,9 +20,9 @@
             CentCommOperator: [ 1, 2 ]
             BlueShieldOperative: [1, 2]
             # Lust-Start
-            CentCommInspector: [ 1, 1 ]
-            CentCommChiefOfStaff: [ 1, 1 ]
-            CentCommIntern: [ 1, 1 ]
-            CentCommIDOperator: [ 1, 1 ]
-            CentCommSpecOpsOperator: [ 1, 1 ]
+            LustCentCommInspector: [ 1, 1 ]
+            LustCentCommChiefOfStaff: [ 1, 1 ]
+            LustCentCommIntern: [ 1, 1 ]
+            LustCentCommIDOperator: [ 1, 1 ]
+            LustCentCommSpecOpsOperator: [ 1, 1 ]
             # Lust-End
