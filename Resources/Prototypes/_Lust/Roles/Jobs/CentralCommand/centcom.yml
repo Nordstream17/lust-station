@@ -216,6 +216,31 @@
     components:
     - type: ParadoxCloneImmune
 
+# Образы хамелеона для новых должностей
+- type: chameleonOutfit
+  id: LustCentCommInspectorChameleonOutfit
+  job: LustCentCommInspector
+
+- type: chameleonOutfit
+  id: LustCentCommChiefOfStaffChameleonOutfit
+  job: LustCentCommChiefOfStaff
+
+- type: chameleonOutfit
+  id: LustCentCommInternChameleonOutfit
+  job: LustCentCommIntern
+
+- type: chameleonOutfit
+  id: LustCentCommIDOperatorChameleonOutfit
+  job: LustCentCommIDOperator
+
+- type: chameleonOutfit
+  id: LustCentCommSpecOpsOperatorChameleonOutfit
+  job: LustCentCommSpecOpsOperator
+
+- type: chameleonOutfit
+  id: LustCentCommMaidChameleonOutfit
+  job: LustCentCommMaid
+
 - type: startingGear
   id: LustCentCommSpecOpsOperatorGearQillu
   equipment:
