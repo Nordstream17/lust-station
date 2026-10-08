@@ -21,6 +21,20 @@
   playTimeTracker: JobLustCentCommInspector
   requirements:
   - !type:DiscordRoleRequirement
+  - !type:OverallPlaytimeRequirement
+    time: 20h
+  - !type:DepartmentTimeRequirement
+    department: Command
+    time: 10h
+  - !type:DepartmentTimeRequirement
+    department: Law
+    time: 10h
+  - !type:RoleTimeRequirement
+    role: JobCentCommOperator
+    time: 12h
+  - !type:RoleTimeRequirement
+    role: JobLustCentCommIntern
+    time: 12h
   weight: 30
   setPreference: true
   startingGear: CentCommOperatorGearQillu
@@ -48,6 +62,8 @@
   playTimeTracker: JobLustCentCommChiefOfStaff
   requirements:
   - !type:DiscordRoleRequirement
+  - !type:OverallPlaytimeRequirement
+    time: 20h
   weight: 60
   setPreference: true
   startingGear: CentCommOperatorGearQillu
@@ -75,6 +91,14 @@
   playTimeTracker: JobLustCentCommIntern
   requirements:
   - !type:DiscordRoleRequirement
+  - !type:OverallPlaytimeRequirement
+    time: 20h
+  - !type:DepartmentTimeRequirement
+    department: Command
+    time: 10h
+  - !type:DepartmentTimeRequirement
+    department: Law
+    time: 10h
   weight: 10
   setPreference: true
   startingGear: CentCommOperatorGearQillu
@@ -103,6 +127,8 @@
   playTimeTracker: JobLustCentCommIDOperator
   requirements:
   - !type:DiscordRoleRequirement
+  - !type:OverallPlaytimeRequirement
+    time: 20h
   weight: 70
   setPreference: true
   startingGear: CentCommOperatorGearQillu
@@ -131,10 +157,50 @@
   playTimeTracker: JobLustCentCommSpecOpsOperator
   requirements:
   - !type:DiscordRoleRequirement
+  - !type:OverallPlaytimeRequirement
+    time: 20h
+  - !type:RoleTimeRequirement
+    role: JobCentCommOperator
+    time: 12h
+  - !type:RoleTimeRequirement
+    role: JobLustCentCommIntern
+    time: 12h
   weight: 40
   setPreference: true
   startingGear: LustCentCommSpecOpsOperatorGearQillu
   icon: "JobIconNanotrasen"
+  overrideConsoleVisibility: false
+  supervisors: job-supervisors-centcom
+  radioBold: true
+  alwaysUseSpawner: true
+  accessGroups:
+  - AllAccess
+  access:
+  - CentralCommand
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant, DeathRattleImplantCentcomm ]
+  - !type:AddComponentSpecial
+    components:
+    - type: ParadoxCloneImmune
+
+# Maid Centcom
+- type: job
+  id: LustCentCommMaid
+  name: job-name-centcom-maid
+  description: job-description-centcom-maid
+  playTimeTracker: JobLustCentCommMaid
+  requirements:
+  - !type:DiscordRoleRequirement
+  - !type:OverallPlaytimeRequirement
+    time: 20h
+  - !type:RoleTimeRequirement
+    role: JobComMaid
+    time: 6h
+  weight: 100
+  setPreference: true
+  startingGear: ComMaidGear
+  icon: JobIconComMaid
   overrideConsoleVisibility: false
   supervisors: job-supervisors-centcom
   radioBold: true
@@ -165,29 +231,3 @@
   storage:
     back:
     - RubberStampCentcom #!
-
-- type: job
-  id: LustCentCommMaid
-  name: job-name-centcom-maid
-  description: job-description-centcom-maid
-  playTimeTracker: JobLustCentCommMaid
-  requirements:
-  - !type:DiscordRoleRequirement
-  weight: 100
-  setPreference: true
-  startingGear: ComMaidGear
-  icon: JobIconComMaid
-  overrideConsoleVisibility: false
-  supervisors: job-supervisors-centcom
-  radioBold: true
-  alwaysUseSpawner: true
-  accessGroups:
-  - AllAccess
-  access:
-  - CentralCommand
-  special:
-  - !type:AddImplantSpecial
-    implants: [ MindShieldImplant, DeathRattleImplantCentcomm ]
-  - !type:AddComponentSpecial
-    components:
-    - type: ParadoxCloneImmune
