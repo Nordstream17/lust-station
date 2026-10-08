@@ -27,3 +27,6 @@
 
 - type: playTimeTracker
   id: JobLustCentCommSpecOpsOperator
+
+- type: playTimeTracker
+  id: JobLustCentCommMaid

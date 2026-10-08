@@ -8,3 +8,5 @@ ent-SpawnPointLustCentCommIDOperator = central command ID
     .desc = { ent-SpawnPointJobBase.desc }
 ent-SpawnPointLustCentCommSpecOpsOperator = central command specops
     .desc = { ent-SpawnPointJobBase.desc }
+ent-SpawnPointLustCentCommMaid = central command maid
+    .desc = { ent-SpawnPointJobBase.desc }

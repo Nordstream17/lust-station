@@ -37,3 +37,11 @@
   components:
   - type: SpawnPoint
     job_id: LustCentCommSpecOpsOperator
+
+- type: entity
+  id: SpawnPointLustCentCommMaid
+  parent: SpawnPointCentCommOperator
+  name: central command maid
+  components:
+  - type: SpawnPoint
+    job_id: LustCentCommMaid

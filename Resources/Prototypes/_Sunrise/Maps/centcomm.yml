@@ -22,7 +22,8 @@
             # Lust-Start
             LustCentCommInspector: [ 1, 1 ]
             LustCentCommChiefOfStaff: [ 1, 1 ]
-            LustCentCommIntern: [ 1, 1 ]
+            LustCentCommIntern: [ 1, 2 ]
             LustCentCommIDOperator: [ 1, 1 ]
-            LustCentCommSpecOpsOperator: [ 1, 1 ]
+            LustCentCommSpecOpsOperator: [ 1, 2 ]
+            LustCentCommMaid: [ 1, 1 ]
             # Lust-End

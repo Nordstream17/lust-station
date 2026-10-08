@@ -165,3 +165,29 @@
   storage:
     back:
     - RubberStampCentcom #!
+
+- type: job
+  id: LustCentCommMaid
+  name: job-name-centcom-maid
+  description: job-description-centcom-maid
+  playTimeTracker: JobLustCentCommMaid
+  requirements:
+  - !type:DiscordRoleRequirement
+  weight: 30
+  setPreference: true
+  startingGear: ComMaidGear
+  icon: JobIconComMaid
+  overrideConsoleVisibility: false
+  supervisors: job-supervisors-centcom
+  radioBold: true
+  alwaysUseSpawner: true
+  accessGroups:
+  - AllAccess
+  access:
+  - CentralCommand
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant, DeathRattleImplantCentcomm ]
+  - !type:AddComponentSpecial
+    components:
+    - type: ParadoxCloneImmune

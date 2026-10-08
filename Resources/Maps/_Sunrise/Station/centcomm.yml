@@ -96211,6 +96211,13 @@ entities:
     - type: Transform
       pos: 2.5,7.5
       parent: 2
+- proto: SpawnPointLustCentCommMaid
+  entities:
+  - uid: 17902
+    components:
+    - type: Transform
+      pos: 4.5,7.5
+      parent: 2
 # Lust-End
 - proto: SpawnPointMagistrat
   entities:
