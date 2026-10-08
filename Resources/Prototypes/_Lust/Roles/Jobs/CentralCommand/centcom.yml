@@ -22,19 +22,19 @@
   requirements:
   - !type:DiscordRoleRequirement
   - !type:OverallPlaytimeRequirement
-    time: 20h
-  - !type:DepartmentTimeRequirement
-    department: Command
     time: 10h
-  - !type:DepartmentTimeRequirement
-    department: Law
-    time: 10h
-  - !type:RoleTimeRequirement
-    role: JobCentCommOperator
-    time: 12h
-  - !type:RoleTimeRequirement
-    role: JobLustCentCommIntern
-    time: 12h
+#  - !type:DepartmentTimeRequirement
+#    department: Command
+#    time: 10h
+#  - !type:DepartmentTimeRequirement
+#    department: Law
+#    time: 10h
+#  - !type:RoleTimeRequirement
+#    role: JobCentCommOperator
+#    time: 12h
+#  - !type:RoleTimeRequirement
+#    role: JobLustCentCommIntern
+#    time: 12h
   weight: 30
   setPreference: true
   startingGear: CentCommOperatorGearQillu
@@ -63,7 +63,7 @@
   requirements:
   - !type:DiscordRoleRequirement
   - !type:OverallPlaytimeRequirement
-    time: 20h
+    time: 10h
   weight: 60
   setPreference: true
   startingGear: CentCommOperatorGearQillu
@@ -92,13 +92,13 @@
   requirements:
   - !type:DiscordRoleRequirement
   - !type:OverallPlaytimeRequirement
-    time: 20h
-  - !type:DepartmentTimeRequirement
-    department: Command
     time: 10h
-  - !type:DepartmentTimeRequirement
-    department: Law
-    time: 10h
+#  - !type:DepartmentTimeRequirement
+#    department: Command
+#    time: 10h
+#  - !type:DepartmentTimeRequirement
+#    department: Law
+#    time: 10h
   weight: 10
   setPreference: true
   startingGear: CentCommOperatorGearQillu
@@ -128,7 +128,7 @@
   requirements:
   - !type:DiscordRoleRequirement
   - !type:OverallPlaytimeRequirement
-    time: 20h
+    time: 10h
   weight: 70
   setPreference: true
   startingGear: CentCommOperatorGearQillu
@@ -158,13 +158,13 @@
   requirements:
   - !type:DiscordRoleRequirement
   - !type:OverallPlaytimeRequirement
-    time: 20h
-  - !type:RoleTimeRequirement
-    role: JobCentCommOperator
-    time: 12h
-  - !type:RoleTimeRequirement
-    role: JobLustCentCommIntern
-    time: 12h
+    time: 10h
+#  - !type:RoleTimeRequirement
+#    role: JobCentCommOperator
+#    time: 12h
+#  - !type:RoleTimeRequirement
+#    role: JobLustCentCommIntern
+#    time: 12h
   weight: 40
   setPreference: true
   startingGear: LustCentCommSpecOpsOperatorGearQillu
@@ -193,10 +193,10 @@
   requirements:
   - !type:DiscordRoleRequirement
   - !type:OverallPlaytimeRequirement
-    time: 20h
+    time: 10h
   - !type:RoleTimeRequirement
     role: JobComMaid
-    time: 6h
+    time: 3h
   weight: 100
   setPreference: true
   startingGear: ComMaidGear
